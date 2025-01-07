@@ -1,0 +1,10 @@
+module write_back(input [3:0] icode_i,
+	input [63:0] vale_i, valm_i,
+	input instr_valid_i, imem_error_i, dmem_error_i,
+	output [63:0] vale_o, valm_o,
+	output stat_o);
+	assign vale_o = vale_i;
+	assign valm_o = valm_i;
+	
+	assign stat_o = instr_valid_i & ~imem_error_i & ~dmem_error_i;
+endmodule

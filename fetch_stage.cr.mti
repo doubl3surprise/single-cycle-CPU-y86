@@ -1,0 +1,46 @@
+C:/modelsim/examples/cpu/fetch.v {1 {vlog -work work -vopt -stats=none C:/modelsim/examples/cpu/fetch.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module fetch
+
+Top level modules:
+	fetch
+
+} {} {}} C:/modelsim/examples/cpu/mem_acce.v {1 {vlog -work work -vopt -stats=none C:/modelsim/examples/cpu/mem_acce.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module mem_acce
+
+Top level modules:
+	mem_acce
+
+} {} {}} C:/modelsim/examples/cpu/execute.v {1 {vlog -work work -vopt -stats=none C:/modelsim/examples/cpu/execute.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module execute
+
+Top level modules:
+	execute
+
+} {} {}} C:/modelsim/examples/cpu/write_back.v {1 {vlog -work work -vopt -stats=none C:/modelsim/examples/cpu/write_back.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module write_back
+
+Top level modules:
+	write_back
+
+} {} {}} C:/modelsim/examples/cpu/define.v {1 {vlog -work work -vopt -stats=none C:/modelsim/examples/cpu/define.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+
+} {} {}} C:/modelsim/examples/cpu/decode.v {1 {vlog -work work -vopt -stats=none C:/modelsim/examples/cpu/decode.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module decode
+
+Top level modules:
+	decode
+
+} {} {}} C:/modelsim/examples/cpu/pc_update.v {1 {vlog -work work -vopt -stats=none C:/modelsim/examples/cpu/pc_update.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module pc_update
+
+Top level modules:
+	pc_update
+
+} {} {}}

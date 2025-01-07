@@ -1,0 +1,28 @@
+`timescale 1ns/1ps
+
+module decode_tb();
+	wire sys_clk, rst_n_i;
+	wire [3:0] icode, ra, rb;
+	wire [63:0] vale, valm;
+	wire cnd;
+	wire vala, valb;
+
+	initial begin
+		sys_clk = 1'b0;
+		rst_n_i = 1'b0;
+	end
+	always #10 sys_clk = ~sys_clk;
+	decode decode_tb(.clk_i(sys_clk)
+		.rst_n_i(rst_n_i),
+		.icode_i(icode),
+		.ra_i(ra),
+		.rb_i(rb),
+		.vale_i(vale),
+		.valm_i(valm),
+		.cnd_i(cnd),
+		.vala_o(vala),
+		.valb_o(valb));
+	initial begin
+		forever@ (posedge sys_clk) #3 begin
+		$display("PC = %d\t, icode = ")
+endmodule
