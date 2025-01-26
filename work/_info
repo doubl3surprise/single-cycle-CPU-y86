@@ -1,0 +1,204 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/modelsim/examples/adder_full
+T_opt
+!s110 1736240442
+VPFzh88jboe<GT46:@GGbH2
+04 8 4 work fetch_tb fast 0
+=1-e0d4e8c5d3bb-677ced39-330-6a1c
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vdecode
+Z1 !s110 1736240405
+!i10b 1
+!s100 T5CAo>S5<^FMlBG8dDci91
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IZfehliZiLLUb0o0NX9Ym=2
+Z3 dC:/modelsim/examples/cpu
+w1736227494
+8C:/modelsim/examples/cpu/decode.v
+FC:/modelsim/examples/cpu/decode.v
+!i122 660
+L0 2 143
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z6 !s108 1736240405.000000
+!s107 define.v|C:/modelsim/examples/cpu/decode.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/cpu/decode.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vexecute
+Z8 !s110 1736240410
+!i10b 1
+!s100 CNBJUE@S1[8zhMXh4hCNm2
+R2
+IkW:7;>O0[6TNCnjR03aeT2
+R3
+w1736220385
+8C:/modelsim/examples/cpu/execute.v
+FC:/modelsim/examples/cpu/execute.v
+!i122 661
+L0 2 91
+R4
+R5
+r1
+!s85 0
+31
+Z9 !s108 1736240410.000000
+!s107 define.v|C:/modelsim/examples/cpu/execute.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/cpu/execute.v|
+!i113 0
+R7
+R0
+vfetch
+R1
+!i10b 1
+!s100 H7W4:PnRkU::8MmfH>dXO2
+R2
+IzeiGYhBBTZ7BHGMLY7?ma0
+R3
+w1736239366
+8C:/modelsim/examples/cpu/fetch.v
+FC:/modelsim/examples/cpu/fetch.v
+!i122 658
+L0 2 89
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 define.v|C:/modelsim/examples/cpu/fetch.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/cpu/fetch.v|
+!i113 0
+R7
+R0
+vfetch_tb
+R1
+!i10b 1
+!s100 2K^eok>;=V?FPn^2n5]AH3
+R2
+ITiJ>5SWHa2a5VT6ASl;=32
+R3
+w1736240403
+8C:/modelsim/examples/cpu/fetch_tb.v
+FC:/modelsim/examples/cpu/fetch_tb.v
+!i122 659
+L0 4 110
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 define.v|C:/modelsim/examples/cpu/fetch_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/cpu/fetch_tb.v|
+!i113 0
+R7
+R0
+vmem_acce
+Z10 !s110 1736240411
+!i10b 1
+!s100 l1CgMO`fbZ@oQ3GFFM41:3
+R2
+I]DZkI>OzloQ?GREO8z?oj2
+R3
+w1736220770
+8C:/modelsim/examples/cpu/mem_acce.v
+FC:/modelsim/examples/cpu/mem_acce.v
+!i122 663
+L0 2 96
+R4
+R5
+r1
+!s85 0
+31
+Z11 !s108 1736240411.000000
+!s107 define.v|C:/modelsim/examples/cpu/mem_acce.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/cpu/mem_acce.v|
+!i113 0
+R7
+R0
+vmemory_access
+!s110 1736151040
+!i10b 1
+!s100 Zjk<SF5G`LASRj>iJNl]]2
+R2
+Ih3n[B?48?L8X[Y1J0VeQK2
+R3
+w1736151034
+8C:/modelsim/examples/cpu/memory_access.v
+FC:/modelsim/examples/cpu/memory_access.v
+!i122 426
+L0 2 80
+R4
+R5
+r1
+!s85 0
+31
+!s108 1736151040.000000
+!s107 define.v|C:/modelsim/examples/cpu/memory_access.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/cpu/memory_access.v|
+!i113 0
+R7
+R0
+vpc_update
+R10
+!i10b 1
+!s100 kHbdASPP0XJ<kZNDndm_F2
+R2
+IVkgW?4a[dHRlo@O1UUNXP1
+R3
+w1736238388
+8C:/modelsim/examples/cpu/pc_update.v
+FC:/modelsim/examples/cpu/pc_update.v
+!i122 664
+L0 2 24
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 define.v|C:/modelsim/examples/cpu/pc_update.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/cpu/pc_update.v|
+!i113 0
+R7
+R0
+vwrite_back
+R8
+!i10b 1
+!s100 nBFJEXW9Y[4X<a=B>ViHc1
+R2
+I:C4j]X3S40X5DfAjKE;4E1
+R3
+w1736215173
+8C:/modelsim/examples/cpu/write_back.v
+FC:/modelsim/examples/cpu/write_back.v
+!i122 662
+L0 1 10
+R4
+R5
+r1
+!s85 0
+31
+R9
+!s107 C:/modelsim/examples/cpu/write_back.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/cpu/write_back.v|
+!i113 0
+R7
+R0
